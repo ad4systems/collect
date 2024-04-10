@@ -12,7 +12,7 @@ import org.odk.collect.android.support.rules.TestRuleChain;
 import org.odk.collect.android.support.pages.FormEntryPage;
 import org.odk.collect.android.support.pages.SaveOrIgnoreDrawingDialog;
 
-// Issue number NODK-209
+// Issue number NForm Plus-209
 @RunWith(AndroidJUnit4.class)
 public class DrawWidgetTest {
 

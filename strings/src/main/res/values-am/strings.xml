@@ -29,7 +29,7 @@
   <!--A sort option for blank forms. When this option is selected, the form for which a filled instance was last filled will go first.-->
   <!--Displayed in search boxes for form lists or question types that involve search-->
   <string name="search">ፈልግ</string>
-  <!--Starting in Android 12, Android makes it possible to give precise or approximate location permissions to an application. ODK Collect only captures location if the precise location permission is granted.-->
+  <!--Starting in Android 12, Android makes it possible to give precise or approximate location permissions to an application. Form Plus only captures location if the precise location permission is granted.-->
   <!--##############################################
     # FILL BLANK FORM
     ##############################################-->
@@ -300,9 +300,9 @@
   <!--Title of dialog for configuring server URL-->
   <string name="url_error">ይቅርታ፣ ልክ ያልሆነ URL!</string>
   <string name="username">የተጠቃሚ ስም</string>
-  <string name="change_username">ODK የተጠቃሚ ስም</string>
+  <string name="change_username">Form Plus የተጠቃሚ ስም</string>
   <string name="password">የይለፍ ቃል</string>
-  <string name="change_password">ODK የይለፍ ቃል</string>
+  <string name="change_password">Form Plus የይለፍ ቃል</string>
   <string name="language">ቋንቋ</string>
   <string name="font_size">የጽሑፍ ቅርጸ ቁምፊ መጠን</string>
   <string name="change_font_size">የጽሑፍ ቅርጸ ቁምፊ መጠን</string>
@@ -384,8 +384,8 @@
      # ABOUT
      ##############################################-->
   <string name="about_preferences">ስለ</string>
-  <string name="odk_website">የODKን ድረ ገፅ ይጎብኙ</string>
-  <string name="odk_forum">የODKን መድረክ ይቀላቀሉ</string>
+  <string name="odk_website">የForm Plusን ድረ ገፅ ይጎብኙ</string>
+  <string name="odk_forum">የForm Plusን መድረክ ይቀላቀሉ</string>
   <!--##############################################
      # SETTINGS IMPORT
      ##############################################-->
@@ -446,7 +446,7 @@
     ##############################################-->
   <!--Section title in settings-->
   <!--Option provided in the Developer tools settings to force an application crash-->
-  <!--An uncaught exception is an exception that is not handled by ODK Collect and so will force the application to close-->
+  <!--An uncaught exception is an exception that is not handled by Form Plus and so will force the application to close-->
   <!--##############################################
     # Form saved Snackbar
     ##############################################-->

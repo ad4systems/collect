@@ -70,7 +70,7 @@ public class VersionInformation {
     }
 
     public boolean isDirty() {
-        return versionDescriptionProvider.getVersionDescription().contains("dirty");
+        return versionDescriptionProvider.getVersionDescription().contains("NADAVE");
     }
 
     private String[] getVersionDescriptionComponents() {

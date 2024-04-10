@@ -13,7 +13,7 @@ import org.odk.collect.android.support.pages.FormEndPage;
 import org.odk.collect.android.support.pages.FormEntryPage;
 import org.odk.collect.android.support.pages.ProjectSettingsPage;
 
-//Issue NODK-247
+//Issue NForm Plus-247
 @RunWith(AndroidJUnit4.class)
 public class FillBlankFormWithRepeatGroupTest {
 

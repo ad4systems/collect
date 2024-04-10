@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 import org.odk.collect.android.support.rules.CollectTestRule;
 import org.odk.collect.android.support.rules.TestRuleChain;
 
-//Issue NODK-244
+//Issue NForm Plus-244
 @RunWith(AndroidJUnit4.class)
 public class FillBlankInvalidFormTest {
 

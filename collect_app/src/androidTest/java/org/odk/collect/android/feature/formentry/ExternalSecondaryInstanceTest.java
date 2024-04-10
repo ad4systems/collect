@@ -13,14 +13,14 @@ import java.util.Collections;
 
 /**
  * This tests the "Multiple choice from file" feature of XLSForms which is also referred to as just
- * "external datasets" in ODK docs and "External secondary instances" in XForm docs.
+ * "external datasets" in Form Plus docs and "External secondary instances" in XForm docs.
  *
  * @see <a href="https://xlsform.org/en/#multiple-choice-from-file">Multiple choice from file</a>
  * @see <a href="https://docs.getodk.org/form-datasets/">Form datasets</a>
  * @see <a href="https://getodk.github.io/xforms-spec/#secondary-instances---external">External secondary  instances</a>
  */
 
-// Issue number NODK-377
+// Issue number NForm Plus-377
 @RunWith(AndroidJUnit4.class)
 public class ExternalSecondaryInstanceTest {
 

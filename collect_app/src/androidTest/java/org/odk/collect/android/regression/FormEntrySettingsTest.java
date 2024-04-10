@@ -11,7 +11,7 @@ import org.odk.collect.android.support.pages.SaveOrDiscardFormDialog;
 import org.odk.collect.android.support.rules.CollectTestRule;
 import org.odk.collect.android.support.rules.TestRuleChain;
 
-//Issue NODK-243
+//Issue NForm Plus-243
 public class FormEntrySettingsTest {
 
     public CollectTestRule rule = new CollectTestRule();

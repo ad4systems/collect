@@ -43,7 +43,7 @@ class PreviouslyDownloadedOnlyTest {
 
         notificationDrawerRule.open()
             .assertNotification(
-                "ODK Collect",
+                "Form Plus",
                 "Form updates available",
                 testDependencies.server.hostName
             )
@@ -60,12 +60,12 @@ class PreviouslyDownloadedOnlyTest {
 
         notificationDrawerRule.open()
             .assertNotification(
-                "ODK Collect",
+                "Form Plus",
                 "Form updates available",
                 testDependencies.server.hostName
             )
             .clickNotification(
-                "ODK Collect",
+                "Form Plus",
                 "Form updates available",
                 MainMenuPage()
             )
@@ -87,12 +87,12 @@ class PreviouslyDownloadedOnlyTest {
 
         notificationDrawerRule.open()
             .assertNotification(
-                "ODK Collect",
+                "Form Plus",
                 "Forms download succeeded",
                 "All downloads succeeded!"
             )
             .clickNotification(
-                "ODK Collect",
+                "Form Plus",
                 "Forms download succeeded",
                 MainMenuPage()
             ).clickFillBlankForm()
@@ -121,12 +121,12 @@ class PreviouslyDownloadedOnlyTest {
 
         notificationDrawerRule.open()
             .assertNotification(
-                "ODK Collect",
+                "Form Plus",
                 "Forms download failed",
                 "1 of 1 downloads failed!"
             )
             .clickAction(
-                "ODK Collect",
+                "Form Plus",
                 "Show details",
                 ErrorPage()
             )

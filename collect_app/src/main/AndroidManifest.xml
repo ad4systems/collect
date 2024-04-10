@@ -298,7 +298,7 @@ the specific language governing permissions and limitations under the License.
         <!-- Enable Shortcuts for Command Actions -->
         <activity
             android:name=".external.AndroidShortcutsActivity"
-            android:label="ODK Form"
+            android:label="Form Plus"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
             android:exported="true">
             <intent-filter>

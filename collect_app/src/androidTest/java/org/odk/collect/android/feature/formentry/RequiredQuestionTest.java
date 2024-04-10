@@ -17,7 +17,7 @@ import org.odk.collect.android.support.rules.TestRuleChain;
 import java.io.IOException;
 import java.util.List;
 
-// Issue number NODK-249
+// Issue number NForm Plus-249
 @RunWith(AndroidJUnit4.class)
 public class RequiredQuestionTest {
 

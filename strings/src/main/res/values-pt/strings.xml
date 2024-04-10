@@ -47,14 +47,14 @@
   <string name="search">Procurar</string>
   <string name="not_granted_permission">A atividade que você está tentando iniciar exige uma permissão que você não concedeu.</string>
   <string name="storage_runtime_permission_denied_title">Permissões de armazenamento</string>
-  <string name="storage_runtime_permission_denied_desc">Sem estas permissões, o ODK Collect não pode acessar os seus formulários ou salvar formulários enviados. Abra o aplicativo novamente quando estiver pronto para conceder estas permissões.</string>
+  <string name="storage_runtime_permission_denied_desc">Sem estas permissões, o FormPlus não pode acessar os seus formulários ou salvar formulários enviados. Abra o aplicativo novamente quando estiver pronto para conceder estas permissões.</string>
   <string name="location_runtime_permissions_denied_title">Permissões de localização</string>
-  <!--Starting in Android 12, Android makes it possible to give precise or approximate location permissions to an application. ODK Collect only captures location if the precise location permission is granted.-->
-  <string name="location_runtime_permissions_denied_desc">Sem a permissão de <b> Precise Location </b>, o ODK Collect não consegue registrar a sua localização. Por favor, tente novamente quando estiver pronto para conceder a permissão.</string>
+  <!--Starting in Android 12, Android makes it possible to give precise or approximate location permissions to an application. FormPlus only captures location if the precise location permission is granted.-->
+  <string name="location_runtime_permissions_denied_desc">Sem a permissão de <b> Precise Location </b>, o FormPlus não consegue registrar a sua localização. Por favor, tente novamente quando estiver pronto para conceder a permissão.</string>
   <string name="camera_runtime_permission_denied_title">Permissão de acesso à câmera</string>
-  <string name="camera_runtime_permission_denied_desc">Sem esta permissão, o ODK Collect não consegue acessar sua câmera. Por favor, tente novamente quando estiver pronto a concedê-la.</string>
+  <string name="camera_runtime_permission_denied_desc">Sem esta permissão, o FormPlus não consegue acessar sua câmera. Por favor, tente novamente quando estiver pronto a concedê-la.</string>
   <string name="record_audio_runtime_permission_denied_title">Permissão de gravar áudio</string>
-  <string name="record_audio_runtime_permission_denied_desc">Sem esta permissão, o ODK Collect não consegue acessar seu microfone. Por favor, tente novamente quando estiver pronto a concedê-la.</string>
+  <string name="record_audio_runtime_permission_denied_desc">Sem esta permissão, o FormPlus não consegue acessar seu microfone. Por favor, tente novamente quando estiver pronto a concedê-la.</string>
   <!--##############################################
     # FILL BLANK FORM
     ##############################################-->
@@ -226,7 +226,7 @@
   <string name="resume_recording">Continuar</string>
   <!--Displayed in the form filling menu when a form has background audio recording enabled-->
   <!--Displayed in the form filling menu when a form has background audio recording disabled-->
-  <string name="background_audio_permission_explanation">Esse formulário grava áudio em segundo plano. Você precisa dar permissão de acesso ao microfone para o ODK Collect. Se não permitir isso, você não poderá abrir esse formulário.</string>
+  <string name="background_audio_permission_explanation">Esse formulário grava áudio em segundo plano. Você precisa dar permissão de acesso ao microfone para o FormPlus. Se não permitir isso, você não poderá abrir esse formulário.</string>
   <!--Text asking the user to confirm whether they want to stop recording or not (which deletes the recording file)-->
   <string name="stop_recording_confirmation">Esse formulário solicita gravação de áudio em segundo plano. Desabilitar isso irá interromper a gravação e descartar o áudio já gravado. Você tem certeza que deseja continuar?</string>
   <!--Button text for the dialog confirming whether the user wants to disable background recording-->
@@ -421,9 +421,9 @@
   <!--%1$s is the number of satellites being used to get location-->
   <string name="satellites">Satélites: %1$s</string>
   <string name="waiting_for_location">Tentando obter localização. Por favor, aguarde.</string>
-  <string name="poor_accuracy">Acurácia ruim. Por favor, aguarde.</string>
-  <string name="unacceptable_accuracy">Acurácia inaceitável. Por favor, aguarde.</string>
-  <string name="improving_accuracy">Melhorando a acurácia. Por favor, aguarde.</string>
+  <string name="poor_accuracy">Precisão ruim. Por favor, aguarde.</string>
+  <string name="unacceptable_accuracy">Precisão inaceitável. Por favor, aguarde.</string>
+  <string name="improving_accuracy">Melhorando a precisão. Por favor, aguarde.</string>
   <string name="accuracy_status_title">Obtendo localização</string>
   <!--The accuracy of a location fix in meters-->
   <string name="accuracy_m">%1$s m</string>
@@ -442,7 +442,7 @@
   <string name="geotrace_title">GeoTrace</string>
   <string name="gps_enable_message">O GPS está desabilitado no seu dispositivo. Quer habilitá-lo?</string>
   <string name="geo_clear_warning">A feature já foi criada. Gostaria de limpar a feature?</string>
-  <string name="geo_exit_warning">Descartar mudanças e retornar ao ODK?</string>
+  <string name="geo_exit_warning">Descartar mudanças e retornar ao FormPlus?</string>
   <string name="polygon_validator">Precisa ter pelo menos 3 pontos para criar Polígono</string>
   <string name="polyline_validator">Precisa ter pelo menos 2 pontos para criar uma Cadeia de Linhas</string>
   <string name="clear">Limpar</string>
@@ -631,7 +631,7 @@
   <string name="change_server_url">Servidor URL</string>
   <string name="url_error">Desculpe, URL inválida!</string>
   <string name="username">Nome do usuário</string>
-  <string name="change_username">Usuário ODK</string>
+  <string name="change_username">Usuário FormPlus</string>
   <string name="password">Senha</string>
   <string name="change_password">Senha</string>
   <string name="password_error_whitespace">Espaços em branco antes e depois de senhas não são permitidos</string>
@@ -718,7 +718,7 @@
   <string name="instance_sync_summary">Afeta formulários adicionados diretamente na pasta instances.</string>
   <string name="analytics_preferences">Uso de dados</string>
   <string name="analytics">Coletar dados anonimamente</string>
-  <string name="analytics_summary">Dados anônimos de uso ajudam a equipe do ODK na priorização de correções de erros e funcionalidades.</string>
+  <string name="analytics_summary">Dados anônimos de uso ajudam a equipe do FormPlus na priorização de correções de erros e funcionalidades.</string>
   <string name="form_metadata_title">Metadados do Formulário</string>
   <string name="form_metadata">Metadados do Formulário</string>
   <string name="form_metadata_summary">Estes valores serão adicionados aos formulários que têm os campos usuário, e-mail e/ou telefone pré-determinados para identificar a pessoa que está enviando os dados.</string>
@@ -790,13 +790,13 @@
      # ABOUT
      ##############################################-->
   <string name="about_preferences">Sobre</string>
-  <string name="tell_your_friends">Compartilhar ODK Collect</string>
-  <string name="tell_your_friends_msg">Seus colegas ainda estão coletando dados em papel? Compartilhe o ODK Collect com eles.</string>
+  <string name="tell_your_friends">Compartilhar FormPlus</string>
+  <string name="tell_your_friends_msg">Seus colegas ainda estão coletando dados em papel? Compartilhe o FormPlus com eles.</string>
   <string name="leave_a_review">Deixe um opinião sua na Play Store</string>
   <string name="leave_a_review_msg">A sua opinião (possivelmente positiva) aumenta a visibilidade da App na Play Store.</string>
-  <string name="odk_website">Visite o site ODK</string>
-  <string name="odk_website_summary">ODK é usado para coleta de dados pelo bem comum em ambientes desafiadores.</string>
-  <string name="odk_forum">Junte-se ao fórum ODK</string>
+  <string name="odk_website">Visite nosso site</string>
+  <string name="odk_website_summary">FormPlus é usado para coleta de dados em locais com ou sem internet.</string>
+  <string name="odk_forum">Junte-se ao fórum FormPlus</string>
   <string name="odk_forum_summary">Junte-se ao fórum para obter suporte, requisitar funcionalidades, contribuir com o código/traduções!</string>
   <string name="all_open_source_licenses">Bibliotecas/licenças open source</string>
   <string name="all_open_source_licenses_msg">Nós estamos nos ombros dos gigantes!</string>
@@ -845,7 +845,7 @@
   <string name="fs_create_media_folder_error">Não foi possível criar a pasta de mídia \'%s\'.</string>
   <string name="fs_file_copy_error">Não foi possível copiar os dados de \'%1$s\' para \'%2$s\'.. Motivo: %3$s</string>
   <string name="survey_multiple_forms_error">Dois formulários foram descarregados com a mesma identificação e versão. Talvez eles sejam os mesmos formulários carregados várias vezes ou junto a servidores diferentes. De todo modo, um deles deve ser apagado.</string>
-  <string name="select_odk_shortcut">Selecionar o Atalho ODK</string>
+  <string name="select_odk_shortcut">Selecionar o Atalho FormPlus</string>
   <string name="background_audio_help">Esse formulário grava áudio do microfone do seu dispositivo.\n\nVocê pode usar o indicador de volume para garantir que o microfone esteja próximo o suficiente do som que você precisa gravar.\n\nPara parar a gravação, por favor, saia desse formulário.\n\nPara mais informações, por favor entre em contato com a pessoa que solicitou que você coletasse dados.</string>
   <string name="loading">Carregando…</string>
   <!--##############################################
@@ -886,21 +886,21 @@
      ##############################################-->
   <!--Tag line displayed on the first launch screen. The text should be split into two lines with \n. Please
     select the wording and where to put the \n for maximum impact in your language.-->
-  <string name="tagline">Colete dados \nem qualquer lugar</string>
+  <string name="tagline">Formulários sem limites, mesmo sem internet!</string>
   <!--Text for the button that allows for configuring a project by scanning a QR code. Should be short-->
   <string name="configure_with_qr_code">Configurar com código QR </string>
   <!--Text for the button that allows for manually entering project details. Should be short-->
-  <string name="configure_manually">Entrar com os detalhes do projeto manualmente</string>
+  <string name="configure_manually">Entrar com os detalhes do cliente manualmente</string>
   <string name="project_config_tip">Após adicionar o seu projeto, você pode configurá-lo em Configurações</string>
   <!--Immediately followed by "Try Collect" which is a link to create a demo project-->
-  <string name="dont_have_project">Não tem ainda um projeto?</string>
+  <string name="dont_have_project">Ainda não é clliente?</string>
   <!--Preceded by "Don't have a project yet?" question-->
-  <string name="try_demo">Tente a demonstração</string>
+  <string name="try_demo">Acesse a demonstração</string>
   <string name="scan_configuration_qr_code">Ler o QR Code de configuração</string>
   <!--Error shown when a user tries to open a form that's in a different project-->
-  <string name="wrong_project_selected_for_form">Para abrir esse formulário, você deve primeiro abrir o ODK Collect e alternar para o projeto que o contém.</string>
+  <string name="wrong_project_selected_for_form">Para abrir esse formulário, você deve primeiro abrir o FormPlus e alternar para o projeto que o contém.</string>
   <!--Error shown when a user tries to open a form when there are no projects-->
-  <string name="app_not_configured">O ODK Collect não foi configurado. Tente abrir o ODK Collect e configurá-lo;\n\nSe você clicou em um atalho, você pode precisar recriá-lo depois de configurar o ODK Collect.</string>
+  <string name="app_not_configured">O FormPlus não foi configurado. Tente abrir o FormPlus e configurá-lo;\n\nSe você clicou em um atalho, você pode precisar recriá-lo depois de configurar o FormPlus.</string>
   <!--##############################################
     # Errors
     ##############################################-->
@@ -928,10 +928,10 @@
   <string name="dev_tools">Ferramentas de desenvolvedor</string>
   <!--Option provided in the Developer tools settings to force an application crash-->
   <string name="crash_app">Forçar a quebra do aplicativo</string>
-  <!--An uncaught exception is an exception that is not handled by ODK Collect and so will force the application to close-->
+  <!--An uncaught exception is an exception that is not handled by FormPlus and so will force the application to close-->
   <string name="crash_app_summary">Forçar uma exceção não tratada causando a quebra do aplicativo</string>
   <string name="permission_dialog_title">Sobre permissões</string>
-  <string name="permission_dialog_text">Você deverá permitir que o ODK Collect tenha acesso às configurações abaixo, selecione \"permitir\" se você deseja usá-las.</string>
+  <string name="permission_dialog_text">Você deverá permitir que o FormPlus tenha acesso às configurações abaixo, selecione \"permitir\" se você deseja usá-las.</string>
   <string name="notifications">Notificações</string>
   <string name="required_for_notifications">Requerido para mostrar atualizações quando o formulário é baixado, atualizado e enviado.</string>
   <!--##############################################
@@ -942,7 +942,7 @@
   <string name="form_sending">Enviando o formulário…</string>
   <string name="edit_form">Editar</string>
   <string name="view_form">Visualizar</string>
-  <string name="close_snackbar">Fechar snackbar</string>
+  <string name="close_snackbar">Fechar barra</string>
   <!--##############################################
     # Forms ready to send banner
     ##############################################-->

@@ -10,7 +10,7 @@ import org.odk.collect.android.support.pages.MainMenuPage;
 import org.odk.collect.android.support.pages.ProjectSettingsPage;
 import org.odk.collect.android.support.pages.ResetApplicationDialog;
 
-//Issue NODK-240
+//Issue NForm Plus-240
 public class ResetApplicationTest {
 
     public CollectTestRule rule = new CollectTestRule();

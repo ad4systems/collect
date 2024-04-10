@@ -12,7 +12,7 @@ import org.odk.collect.android.support.pages.SaveOrIgnoreDrawingDialog;
 import org.odk.collect.android.support.rules.CollectTestRule;
 import org.odk.collect.android.support.rules.TestRuleChain;
 
-// Issue number NODK-211
+// Issue number NForm Plus-211
 @RunWith(AndroidJUnit4.class)
 public class SignatureWidgetTest {
 

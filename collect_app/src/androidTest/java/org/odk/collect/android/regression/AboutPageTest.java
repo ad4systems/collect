@@ -17,7 +17,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static org.odk.collect.android.support.matchers.DrawableMatcher.withImageDrawable;
 import static org.odk.collect.testshared.RecyclerViewMatcher.withRecyclerView;
 
-//Issue NODK-234
+//Issue NForm Plus-234
 @RunWith(AndroidJUnit4.class)
 public class AboutPageTest {
 

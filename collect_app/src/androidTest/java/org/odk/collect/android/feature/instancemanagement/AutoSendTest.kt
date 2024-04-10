@@ -43,9 +43,9 @@ class AutoSendTest {
 
         notificationDrawerRule
             .open()
-            .assertNotification("ODK Collect", "Forms upload succeeded", "All uploads succeeded!")
+            .assertNotification("Form Plus", "Forms upload succeeded", "All uploads succeeded!")
             .clickNotification(
-                "ODK Collect",
+                "Form Plus",
                 "Forms upload succeeded",
                 ViewSentFormPage()
             ).pressBack(MainMenuPage())
@@ -71,9 +71,9 @@ class AutoSendTest {
 
         notificationDrawerRule
             .open()
-            .assertNotification("ODK Collect", "Forms upload failed", "1 of 1 uploads failed!")
+            .assertNotification("Form Plus", "Forms upload failed", "1 of 1 uploads failed!")
             .clickAction(
-                "ODK Collect",
+                "Form Plus",
                 "Show details",
                 ErrorPage()
             )
@@ -97,9 +97,9 @@ class AutoSendTest {
 
         notificationDrawerRule
             .open()
-            .assertNotification("ODK Collect", "Forms upload succeeded", "All uploads succeeded!")
+            .assertNotification("Form Plus", "Forms upload succeeded", "All uploads succeeded!")
             .clickNotification(
-                "ODK Collect",
+                "Form Plus",
                 "Forms upload succeeded",
                 ViewSentFormPage()
             ).pressBack(MainMenuPage())
@@ -124,9 +124,9 @@ class AutoSendTest {
 
         notificationDrawerRule
             .open()
-            .assertNotification("ODK Collect", "Forms upload failed", "1 of 1 uploads failed!")
+            .assertNotification("Form Plus", "Forms upload failed", "1 of 1 uploads failed!")
             .clickAction(
-                "ODK Collect",
+                "Form Plus",
                 "Show details",
                 ErrorPage()
             )

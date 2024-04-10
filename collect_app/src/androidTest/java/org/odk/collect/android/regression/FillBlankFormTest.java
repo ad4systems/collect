@@ -39,7 +39,7 @@ import org.odk.collect.android.support.rules.TestRuleChain;
 import java.util.ArrayList;
 import java.util.List;
 
-//Issue NODK-244
+//Issue NForm Plus-244
 @RunWith(AndroidJUnit4.class)
 public class FillBlankFormTest {
 
@@ -573,7 +573,7 @@ public class FillBlankFormTest {
         //TestCase54
         rule.startAtMainMenu()
                 .copyForm("3403.xml", asList("staff_list.csv", "staff_rights.csv"))
-                .startBlankForm("3403_ODK Version 1.23.3 Tester")
+                .startBlankForm("3403_Form Plus Version 1.23.3 Tester")
                 .clickOnText("New Farmer Registration")
                 .scrollToAndClickText("Insemination")
                 .assertText("New Farmer Registration");

@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 import org.odk.collect.android.support.rules.CollectTestRule;
 import org.odk.collect.android.support.rules.TestRuleChain;
 
-// Issue number NODK-238
+// Issue number NForm Plus-238
 @RunWith(AndroidJUnit4.class)
 public class UserAndDeviceIdentityTest {
 

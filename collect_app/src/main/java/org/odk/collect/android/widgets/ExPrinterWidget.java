@@ -36,7 +36,7 @@ import org.odk.collect.android.widgets.interfaces.WidgetDataReceiver;
 import org.odk.collect.android.widgets.utilities.WaitingForDataRegistry;
 
 /**
- * <p>Use the ODK Sensors framework to print data to a connected printer.</p>
+ * <p>Use the Form Plus Sensors framework to print data to a connected printer.</p>
  * <p>
  * <p>The default button text is "Print Label"
  * <p>
@@ -57,7 +57,7 @@ import org.odk.collect.android.widgets.utilities.WaitingForDataRegistry;
  * <p>
  * <p>Implementation-wise, this widget is an ExStringWidget that is read-only.</p>
  * <p>
- * <p>The ODK Sensors Zebra printer uses this appearance (intent):</p>
+ * <p>The Form Plus Sensors Zebra printer uses this appearance (intent):</p>
  * <pre>
  * "printer:org.opendatakit.sensors.ZebraPrinter"
  * </pre>
@@ -104,8 +104,8 @@ import org.odk.collect.android.widgets.utilities.WaitingForDataRegistry;
  *            &lt;value form="short"&gt;Print your label&lt;/value&gt;
  *            &lt;value form="long"&gt;Print your label&lt;/value&gt;
  *            &lt;value form="buttonText"&gt;Print now&lt;/value&gt;
- *            &lt;value form="noPrinterErrorString"&gt;ODK Sensors Zebra Printer is not installed!
- *             Please install ODK Sensors Framework and ODK Sensors Zebra Printer from Google
+ *            &lt;value form="noPrinterErrorString"&gt;Form Plus Sensors Zebra Printer is not installed!
+ *             Please install Form Plus Sensors Framework and Form Plus Sensors Zebra Printer from Google
  * Play.&lt;/value&gt;
  *          &lt;/text&gt;
  *        &lt;/translation&gt;

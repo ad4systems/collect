@@ -10,7 +10,7 @@ import org.odk.collect.android.support.rules.CollectTestRule;
 import org.odk.collect.android.support.rules.TestRuleChain;
 import org.odk.collect.android.support.pages.MainMenuPage;
 
-//Issue NODK-241
+//Issue NForm Plus-241
 @RunWith(AndroidJUnit4.class)
 public class UserSettingsTest {
 

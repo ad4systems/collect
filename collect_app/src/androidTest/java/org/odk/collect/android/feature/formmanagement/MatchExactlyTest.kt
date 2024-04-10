@@ -68,9 +68,9 @@ class MatchExactlyTest {
 
         notificationDrawerRule
             .open()
-            .assertNotification("ODK Collect", "Form update failed", "Demo project")
+            .assertNotification("Form Plus", "Form update failed", "Demo project")
             .clickNotification(
-                "ODK Collect",
+                "Form Plus",
                 "Form update failed",
                 FillBlankFormPage()
             ).pressBack(MainMenuPage())
@@ -90,9 +90,9 @@ class MatchExactlyTest {
 
         notificationDrawerRule
             .open()
-            .assertNotification("ODK Collect", "Form update failed", "Demo project")
+            .assertNotification("Form Plus", "Form update failed", "Demo project")
             .clickAction(
-                "ODK Collect",
+                "Form Plus",
                 "Show details",
                 ErrorPage()
             ).assertText(org.odk.collect.strings.R.string.form_update_error)

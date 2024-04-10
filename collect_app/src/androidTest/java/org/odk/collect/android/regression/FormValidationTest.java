@@ -12,7 +12,7 @@ import org.odk.collect.android.support.rules.TestRuleChain;
 import org.odk.collect.android.support.pages.FormEntryPage;
 import org.odk.collect.android.support.pages.MainMenuPage;
 
-// Issue number NODK-251
+// Issue number NForm Plus-251
 @RunWith(AndroidJUnit4.class)
 public class FormValidationTest {
 

@@ -13,7 +13,7 @@ import org.odk.collect.android.support.pages.FormEntryPage;
 import org.odk.collect.android.support.pages.MainMenuPage;
 import org.odk.collect.android.support.pages.ProjectSettingsPage;
 
-//Issue NODK-237
+//Issue NForm Plus-237
 @RunWith(AndroidJUnit4.class)
 public class FormManagementTest {
 

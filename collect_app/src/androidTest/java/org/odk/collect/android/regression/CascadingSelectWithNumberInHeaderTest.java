@@ -11,7 +11,7 @@ import org.odk.collect.android.support.rules.TestRuleChain;
 
 import java.util.Collections;
 
-// Issue number NODK-207
+// Issue number NForm Plus-207
 @RunWith(AndroidJUnit4.class)
 public class CascadingSelectWithNumberInHeaderTest {
 

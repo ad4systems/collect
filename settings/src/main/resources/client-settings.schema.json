@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2019-09/schema",
   "$id": "https://getodk.org/client-settings.schema.json",
-  "title": "ODK Client Settings",
+  "title": "Form Plus Client Settings",
   "type": "object",
   "properties": {
     "project": {

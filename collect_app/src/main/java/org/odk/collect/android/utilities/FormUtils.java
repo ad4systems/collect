@@ -35,7 +35,7 @@ public final class FormUtils {
     }
 
     /**
-     * Configures the given reference manager to resolve jr:// URIs to a folder in the root ODK forms
+     * Configures the given reference manager to resolve jr:// URIs to a folder in the root Form Plus forms
      * directory with name matching the name of the directory represented by {@code formMediaDir}.
      * <p>
      * E.g. if /foo/bar/baz is passed in as {@code formMediaDir}, jr:// URIs will be resolved to
