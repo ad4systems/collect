@@ -7,7 +7,7 @@
         <!-- Disable Mapbox initializers to prevent them running on devices that don't support it -->
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="${applicationId}.androidx-startup"
+            android:authorities="org.odk.collect.android.androidx-startup"
             android:exported="false"
             tools:node="merge">
 
